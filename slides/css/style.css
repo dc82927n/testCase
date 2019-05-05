@@ -73,9 +73,10 @@
 .skillsSection{
     background-color: gray;
     color: white; 
+
 }
 
-.skills{
+.skill{
     text-align: center;
     margin-left: 10px; 
 }
@@ -107,10 +108,25 @@
 }
 
 
+.contactSection {
+    padding-top: -10px;
+    background-color: darkkhaki; 
+}
 
 
+.contactButton {
+    color: #fff;
+    padding: 15px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid #fff;
+    border-radius: 2px; 
+}
 
 
-
-
+.contactButton:hover {
+    text-decoration: none;
+    color: pink;
+    background-color: khaki;
+}
 
